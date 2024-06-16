@@ -23,7 +23,7 @@ export const projects = [
       image:
         "assets/proyecto3.png",
       tech: ["HTML5", "CSS3", "JavaScript","Vite" ],
-      github: "http://github.com/myuser/proyecto3",
-      link: "www.proyecto1.com",
+      github: "https://github.com/luistp06/my-portfolio",
+      link: "https://ltpmyportfolio.netlify.app",
     }
   ];
