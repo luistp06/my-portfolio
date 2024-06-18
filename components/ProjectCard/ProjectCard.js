@@ -6,7 +6,7 @@ export const ProjectCard = (project) => `
 <div class="header">
 <h2>${project.title}</h2>
 <div>
-<a href=${project.github}  >
+<a href=${project.github} >
 <img src="/icons/github_icon.jpg" alt="GitHub Icon" />
 </a>
 <a href=${project.link}>
@@ -14,7 +14,6 @@ export const ProjectCard = (project) => `
 </a>
 </div>
 </div>
-
 <div class="detail">
 <p>${project.description}</p>
 <p class="tech">${project.tech.join(" - ")}</p>

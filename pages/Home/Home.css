@@ -25,3 +25,19 @@
   .home > a {
     font-size: 1.5rem;
   }
+  @media (max-width: 400px) {
+    .quien{
+      display: none;
+    }
+    .home > h1 {
+      
+      background: linear-gradient(to right, #11998e 0%,  #38ef7d 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .home{
+      align-items: center;
+      text-align: center;
+    }
+  }

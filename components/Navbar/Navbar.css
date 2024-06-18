@@ -11,6 +11,10 @@ nav {
     nav {
       padding: 0 2rem;
     }
+    nav > ul {
+      display: flex;
+      gap: 1rem;
+    }
   }
   
   nav > ul {
@@ -31,4 +35,17 @@ nav {
   
   nav a:hover {
     color: var(--highlight);
+  }
+  @media (max-width: 400px) {
+    nav > ul {
+      display: flex;
+      gap: 1rem;
+    }
+    nav {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
   }

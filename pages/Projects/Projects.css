@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 60px;
   }
   
   @media (max-width: 770px) {
@@ -27,23 +28,28 @@
   .projects-container {
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 535px));
-  
+    grid-template-columns: repeat(auto-fill, minmax(350px, 500px));
     gap: 8rem;
   }
   
   @media (max-width: 770px) {
     .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      
     }
-    .principal{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      }
-      .projects{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
+    
+  }
+  @media (max-width: 420px) {
+    .projects-container {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin: 0%;
+     gap: 6rem;
+    }
+    .projects{
+      display: none;
+    }
+  
+    
   }
