@@ -6,7 +6,7 @@ export const About = () => {
     const main = document.querySelector("main");
     cleanPage(main);
     main.innerHTML = `
-    <section class="principal">
+    <section class="principalab">
     <div class="image">
       <img
           src="./public/assets/yo.jpeg"
