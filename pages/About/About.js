@@ -9,7 +9,7 @@ export const About = () => {
     <section class="principalab">
     <div class="image">
       <img
-          src="./public/assets/yo.jpeg"
+          src="assets/yo.jpeg"
           alt="Luis Timón"
         />
         </div>
