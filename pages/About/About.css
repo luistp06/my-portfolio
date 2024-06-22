@@ -45,3 +45,25 @@
       
     }
   }
+  @media (max-width: 500px) {
+    .principalab{
+      flex-direction: column;
+      gap: 4rem;
+      align-items: center;
+      text-align: center;
+      margin: 40px;
+    }
+    .texto{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      justify-content: justify;
+      width: 90%;
+      margin: 0;
+      padding: 0;
+  }
+  .texto p{
+    font-size: 18px;
+  }
+}

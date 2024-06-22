@@ -22,3 +22,8 @@
   .my-btn:hover {
     background-color: var(--highlight);
   }
+  @media (max-width: 500px) {
+    .my-btn {
+      width: 12rem;
+    }
+  }

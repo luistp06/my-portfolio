@@ -3,7 +3,7 @@ import { Button } from "../Button/Button";
 
 export const Footer = () => `
 
-<h2>Contact</h2>
+<h2>Contacto</h2>
 <div>
 ${Button("/icons/chain_link.jpg", "Twitter","https://x.com")}
 ${Button("/icons/github_icon.jpg", "GitHub","https://github.com/luistp06")}
