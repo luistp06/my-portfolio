@@ -19,11 +19,11 @@ export const projects = [
     },
     {
       title: "Tercer proyecto",
-      description: "Portfolio personal utilizando VITE y todos los conocimientos anteriores",
+      description: "Web de fotos imitando el comportamiento de busqueda de fotos de Pinterest",
       image:
-        "assets/proyecto3.png",
-      tech: ["HTML5", "CSS3", "JavaScript","Vite" ],
-      github: "https://github.com/luistp06/my-portfolio",
-      link: "https://ltpmyportfolio.netlify.app",
+        "assets/likepinterest.png",
+      tech: ["HTML5", "CSS3", "JavaScript","Vite","Async"],
+      github: "https://github.com/luistp06/Proyecto3",
+      link: "https://likepinterest.netlify.app",
     }
   ];
