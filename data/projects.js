@@ -25,5 +25,23 @@ export const projects = [
       tech: ["HTML5", "CSS3", "JavaScript","Vite","Async"],
       github: "https://github.com/luistp06/Proyecto3",
       link: "https://likepinterest.netlify.app",
+    },
+    {
+      title: "Cuarto proyecto",
+      description: "Curriculum personal responsive con modo claro y oscuro y algún Easter egg",
+      image:
+        "assets/cv.png",
+      tech: ["HTML5", "CSS3", "JavaScript","Vite"],
+      github: "https://github.com/luistp06/Curriculum",
+      link: "https://curriculumlt.netlify.app",
+    },
+    {
+      title: "Quinto proyecto",
+      description: "Página de venta de smartphones con carrousel, busqueda por filtros, buscador funcional...",
+      image:
+        "assets/proyecto5.png",
+      tech: ["HTML5", "CSS3", "JavaScript","Vite","Async"],
+      github: "https://github.com/luistp06/Proyecto-5",
+      link: "https://smartphonezones.netlify.app",
     }
   ];
